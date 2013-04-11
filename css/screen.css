@@ -1,0 +1,54 @@
+/*--------------------> Global Selectors <--------------------*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+
+}
+#container {
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+
+a {}
+
+h1 {}
+
+h2 {}
+
+/*--------------------> Mast Selectors <--------------------*/
+
+/*--------------------> Top Nav Selectors <--------------------*/
+
+/*--------------------> Column Container Selector <--------------------*/
+
+/*--------------------> Footer Selectors <--------------------*/
+
+
+
+/*-------------------> Clearfix and sIFR Selectors, Please do not modify <--------------------*/
+/* Clearfix */
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.clearfix {
+	display:inline-block;
+}
+/* Hide from IE Mac \*/
+.clearfix {
+	display:block;
+}
+/* End hide from IE Mac */
+.brclear {
+	clear:both;
+	height:0;
+	margin:0;
+	font-size: 1px;
+	line-height: 0;
+}
